@@ -8,8 +8,5 @@ describe("index.js", () => {
     sinon.spy(input, 'addEventListener');
   })
 
-  it("binds an event listener in addingEventListener()", () => {
-    addingEventListener();
-    expect(input.addEventListener.called).to.be.true;
-  })
+
 })
